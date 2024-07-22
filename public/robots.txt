@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Disallow: /
+
+# Host
+Host: https://breadth.app/docs
+
+# Sitemaps
+Sitemap: https://breadth.app/docs/sitemap.xml
