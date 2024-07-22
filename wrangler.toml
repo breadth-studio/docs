@@ -1,0 +1,8 @@
+# Worker Name
+name = "moon-docs"
+compatibility_date = "2024-06-09"
+send_metrics = true
+compatibility_flags = ["nodejs_compat"]
+
+pages_build_output_dir = ".vercel/output/static"
+upload_source_maps = true
