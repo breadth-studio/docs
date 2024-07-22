@@ -11,6 +11,7 @@ const nextConfig = withNextra({
     locales: ['en-US', 'zh-TW', 'zh-CN'],
     defaultLocale: 'en-US',
   },
+  basePath: "/docs", // if sub route, need to set basePath
 });
 
 module.exports = nextConfig;
