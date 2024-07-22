@@ -10,7 +10,7 @@ export default {
     defaultMenuCollapseLevel: 1,
   },
   primaryHue: { dark: 278, light: 265 },
-  docsRepositoryBase: 'https://github.com/breadth-studio/docs/tree/master/src',
+  docsRepositoryBase: 'https://github.com/breadth-studio/docs/tree/master',
   components: {  Callout },
   i18n: [
     { locale: 'en-US', text: 'English' },
