@@ -3,6 +3,6 @@ module.exports = {
     siteUrl: 'https://breadth.app/docs',
     generateRobotsTxt: true, // (optional)
     robotsTxtOptions: {
-        policies: [{ userAgent: '*', disallow: "/"}],
+        policies: [{ userAgent: '*', allow: '/' }],
     },
 }
