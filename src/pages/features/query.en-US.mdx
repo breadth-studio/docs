@@ -1,0 +1,99 @@
+---
+title: Query
+ogImageTitle: User Guide “Query”
+ogImageSubtitle: What is Query?
+---
+
+import { Callout } from 'nextra-theme-docs'
+
+# Query
+
+## 1. What is “Query”?
+
+Query is a tool for querying stock indicator data. It has many query parameters that allow users to choose suitable parameters according to their needs, such as market value and P/E ratio of a certain stock, as well as technical indicators like SMA and EMA.
+
+In addition, Query also supports saving query conditions for future use and sharing queries with friends.
+
+## 2. How to use “Query”?
+
+Open the [BreadthApp Query](https://breadth.app/query) page, and you will see a Query page as shown in the following figure:
+
+![Query](/query/query.png)
+
+### 2.1 Basic “Query”
+
+You can enter the stock code in the input box and click the search button to query the indicator data of that stock.
+
+![Query](/query/search-by-symbol.png)
+
+
+### 2.2 Advanced search
+
+Advanced search supports two operations: `Filter` and `Sort`. The condition panel can be called out by clicking on the `Add Filter` button.
+
+- **Filter**: Search conditions, which can filter stocks based on market value, P/E ratio, technical indicators, etc.
+- **Sort**: Sorted in descending order by default. It can be sorted based on a certain indicator, such as sorting by market value from largest to smallest.
+
+>Click ‘Add Filter’ to show the filter panel.
+
+![Filter panel](/query/filter-panel.png)
+
+>Add the necessary conditions to the filter, such as market value, price change percentage, etc.
+
+![Search Query](/query/filter-sort-panel.png)
+
+>Click the “Search” button to find stocks that meet the criteria.
+
+![Query Result](/query/query-result.png)
+
+## 3. Save Query
+
+After debugging the Query, click the `Save` button and enter a name for the Query to save it.
+
+![Click Save](/query/click-save.png)
+
+![Save Query](/query/create-query.png)
+
+### 3.1 View saved queries.
+
+>Click `My Query` to show the saved query.
+
+![Click My Query](/query/click-my-query.png)
+
+![My Query](/query/saved-query.png)
+
+### 3.2 Using saved Query
+
+Click the `+` icon, and the saved Query will appear in the condition area. Click the `Search` button to search.
+
+![Use Query](/query/use-query.png)
+
+>If there are already query conditions in the conditional area, clicking the + icon will overwrite the original query conditions. A prompt box will appear, and after confirmation, the saved Query can be used.
+
+![Use Query](/query/use-query-waring.png)
+
+## 4. Share “Query”
+
+After sharing the query, anyone who knows the link can view your query.
+
+![Click Share](/query/click-share-query.png)
+
+After confirmation, a link will be generated which can be copied to the clipboard and shared with your friends. At the same time, the status of the query will change to `PUBLIC`.
+
+![Share Alert](/query/share-alert.png)
+
+![Share Query](/query/query-public.png)
+
+For example, this is the generated query demo: https://breadth.app/query/PjCYa8gdQYJeUiwkx3ZbKg
+
+### 4.1 Cancel sharing Query
+
+Click the `Share` button again, a prompt box will appear. Click the button to cancel sharing the query. The status will change to `PRIVATE`.
+
+![Unshare Query](/query/private-query.png)
+
+## 5. Delete to a “Query”
+
+Click the `Delete` button to delete the query. After deletion, you will not be able to view the query and any shared queries will also become inaccessible.
+
+![Delete Query](/query/delete-query.png)

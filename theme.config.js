@@ -14,8 +14,8 @@ export default {
   components: {  Callout },
   i18n: [
     { locale: 'en-US', text: 'English' },
-    { locale: 'zh-TW', text: '繁體中文' },
     { locale: 'zh-CN', text: '简体中文' },
+    { locale: 'zh-TW', text: '繁體中文' },
   ],
   logo: (
     <img
