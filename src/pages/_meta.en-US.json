@@ -6,11 +6,13 @@
   "sign-in": {
     "title": "Sign In",
     "type": "page",
-    "href": "https://breadth.app/auth/sign-in"
+    "href": "https://breadth.app/auth/sign-in",
+    "newWindow": true
   },
   "pricing": {
     "title": "Pricing",
     "href": "https://breadth.app/pricing",
-    "type": "page"
+    "type": "page",
+    "newWindow": true
   }
 }

@@ -6,11 +6,13 @@
     "sign-in": {
     "title": "登录",
     "type": "page",
-    "href": "https://breadth.app/auth/sign-in"
+    "href": "https://breadth.app/auth/sign-in",
+    "newWindow": true
   },
   "pricing": {
     "title": "定价",
     "href": "https://breadth.app/pricing",
-    "type": "page"
+    "type": "page",
+    "newWindow": true
   }
 }
