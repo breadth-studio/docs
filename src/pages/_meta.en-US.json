@@ -2,5 +2,15 @@
   "index": "Introduction",
   "features": "Features",
   "legal": "Legal",
-  "changelog": "Changelog"
+  "changelog": "Changelog",
+  "sign-in": {
+    "title": "Sign In",
+    "type": "page",
+    "href": "https://breadth.app/auth/sign-in"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "href": "https://breadth.app/pricing",
+    "type": "page"
+  }
 }

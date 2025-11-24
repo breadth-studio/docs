@@ -6,6 +6,7 @@ export default {
   project: {
     link: 'https://github.com/breadth-studio',
   },
+  logoLink: 'https://breadth.app',
   sidebar: {
     defaultMenuCollapseLevel: 1,
   },

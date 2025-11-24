@@ -2,5 +2,15 @@
   "index": "基本介绍",
   "features": "功能",
   "legal": "法律及政策",
-  "changelog": "更新日志"
+  "changelog": "更新日志",
+    "sign-in": {
+    "title": "登录",
+    "type": "page",
+    "href": "https://breadth.app/auth/sign-in"
+  },
+  "pricing": {
+    "title": "定价",
+    "href": "https://breadth.app/pricing",
+    "type": "page"
+  }
 }
